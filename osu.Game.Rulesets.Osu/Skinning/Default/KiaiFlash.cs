@@ -15,7 +15,7 @@ namespace osu.Game.Rulesets.Osu.Skinning.Default
     {
         private const double fade_length = 80;
 
-        private const float flash_opacity = 0.25f;
+        private const float flash_opacity = 0f;
 
         public KiaiFlash()
         {
