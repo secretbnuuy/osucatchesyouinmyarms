@@ -81,7 +81,7 @@ namespace osu.Game.Rulesets.Osu.UI.Cursor
 
                 ClearTransforms(true);
 
-                ripple.ScaleTo(0.1f)
+                ripple.ScaleTo(1f)
                       .ScaleTo(1, 700, Easing.Out);
 
                 this
