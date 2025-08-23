@@ -4,3 +4,5 @@ list of changes with links to the code changed:
 - make cursor-ripple start at full size instead of growing ([link](https://github.com/secretbnuuy/osucatchesyouinmyarms/commit/9dcc061a925ddfe9494e651dbf09acb087273c4c))
 - remove fail animation's rotation/scaling ([link](https://github.com/secretbnuuy/osucatchesyouinmyarms/commit/afe66b27f41dfe1e24c3f6f1801f53d55ccc7301))
 - if sliderticks should be occuring more than once every 10ms, let them appear within 10ms of the sliderend ([link](https://github.com/secretbnuuy/osucatchesyouinmyarms/commit/7a1cd29b34d0fa637348663ebb4713f690aa0327))
+
+link that shows all code differences between this and the /ppy/osu repo: https://github.com/ppy/osu/compare/master...secretbnuuy:osucatchesyouinmyarms:master
