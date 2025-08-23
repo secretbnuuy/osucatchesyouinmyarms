@@ -185,7 +185,7 @@ namespace osu.Game.Rulesets.Osu.Objects.Drawables
         {
             base.UpdateInitialTransforms();
 
-            CirclePiece.FadeInFromZero(HitObject.TimeFadeIn);
+            CirclePiece.FadeInFromZero(1);
 
             ApproachCircle.FadeTo(0.9f, Math.Min(HitObject.TimeFadeIn * 2, HitObject.TimePreempt));
             ApproachCircle.ScaleTo(1f, HitObject.TimePreempt);
