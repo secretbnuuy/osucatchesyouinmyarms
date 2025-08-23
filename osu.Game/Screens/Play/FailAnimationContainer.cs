@@ -144,8 +144,8 @@ namespace osu.Game.Screens.Play
                 Depth = float.MaxValue
             });
 
-            Content.ScaleTo(0.85f, duration, Easing.OutQuart);
-            Content.RotateTo(1, duration, Easing.OutQuart);
+            Content.ScaleTo(1f, duration, Easing.OutQuart);
+            // Content.RotateTo(1, duration, Easing.OutQuart);
             Content.FadeColour(Color4.Gray, duration);
 
             // Will be restored by `ApplyToBackground` logic in `SongSelect`.
@@ -222,9 +222,9 @@ namespace osu.Game.Screens.Play
         {
             using (obj.BeginAbsoluteSequence(failTime))
             {
-                obj.RotateTo(randomRotation, duration);
-                obj.ScaleTo(originalScale * 0.5f, duration);
-                obj.MoveTo(originalPosition + new Vector2(0, 400), duration);
+                // obj.RotateTo(randomRotation, duration);
+                // obj.ScaleTo(originalScale * 0.5f, duration);
+                // obj.MoveTo(originalPosition + new Vector2(0, 400), duration);
             }
         }
     }
