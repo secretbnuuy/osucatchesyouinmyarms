@@ -7,4 +7,4 @@ list of changes with links to the code changed:
 
 link that shows all code changes (scroll down): https://github.com/ppy/osu/compare/master...secretbnuuy:osucatchesyouinmyarms:master
 
-score submission won't work from the dev build (which this is a copy of)
+score submission won't work from the dev build (which this is a copy of. the official releases contain some closed-source code)
