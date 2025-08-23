@@ -6,3 +6,5 @@ list of changes with links to the code changed:
 - if sliderticks should be occuring more than once every 10ms, let them appear within 10ms of the sliderend ([link](https://github.com/secretbnuuy/osucatchesyouinmyarms/commit/7a1cd29b34d0fa637348663ebb4713f690aa0327))
 
 link that shows all code changes (scroll down): https://github.com/ppy/osu/compare/master...secretbnuuy:osucatchesyouinmyarms:master
+
+score submission won't work from the dev build (which this is a copy of)
